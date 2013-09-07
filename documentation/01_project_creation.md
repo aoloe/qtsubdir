@@ -12,7 +12,7 @@
 
 Now your project should look like this one:
 
-[Project structure in Qt Creator](https://github.com/aoloe/qtsubdir/blob/project_creation/documentation/images/qtsubdir_project.png)
+![Project structure in Qt Creator](https://github.com/aoloe/qtsubdir/blob/project_creation/documentation/images/qtsubdir_project.png)
 
 You should now be able to build the "subdir" project. This will create a directory `~/src/qtsubdir-build` (you defined that target directory in the first step above) with the following content:
 
