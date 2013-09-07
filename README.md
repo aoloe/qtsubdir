@@ -10,4 +10,6 @@ There will be:
 - a "loadTxt" plugin,
 - a `mylib` library that exposes some functionality to both the application and the plugin.
 
+Table of contents:
+
 - [Creating the project structure](documentation/01_project_creation.md)
