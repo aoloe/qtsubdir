@@ -9,8 +9,7 @@
 - Create a new "Other Project > Subdirs Project" called `plugins` in `~/src/qtsubdir/sources/` and add it as a subproject to "sources.pro"
 - Create a new "Other Project > Subdirs Project" called `load` in `~/src/qtsubdir/sources/plugins` and add it as a subproject to "plugins.pro"
 - Create a new "Libraries > C++ Library" called `loadTxt` as a "Shared Library" in `~/src/qtsubdir/sources/plugins/load` and add it as a subproject to "load.pro".
-- Create a new "Other Project > Subdirs Project" called `application` in `~/src/qtsubdir/sources/` and add it as a subproject to "sources.pro"
-- Create a new "Applications > Qt Console Application" called `reader` in `~/src/qtsubdir/sources/application/` and add it as a subproject to "application.pro".
+- Create a new "Applications > Qt Console Application" called `application` in `~/src/qtsubdir/sources/` and add it as a subproject to "sources.pro".
 
 Now your project should look like this one:
 

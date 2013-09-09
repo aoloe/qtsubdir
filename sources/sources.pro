@@ -4,4 +4,5 @@ SUBDIRS += \
     thirdparty \
     libraries \
     plugins \
-    application
+    application \
+    core
