@@ -10,6 +10,20 @@
 - Create a new "Other Project > Subdirs Project" called `load` in `~/src/qtsubdir/sources/plugins` and add it as a subproject to "plugins.pro"
 - Create a new "Libraries > C++ Library" called `loadTxt` as a "Shared Library" in `~/src/qtsubdir/sources/plugins/load` and add it as a subproject to "load.pro".
 - Create a new "Applications > Qt Console Application" called `application` in `~/src/qtsubdir/sources/` and add it as a subproject to "sources.pro".
+- Create a new "Other Project > Empty Qt Project" called `subdirs` in `~/src/qtsubdir/sources/core` and add it as a subproject to "core.pro".
+- "Add New" files to the subdirs project as "C++ > C++ Class", name it SubDirs, using "QApplication" as the base class and renaming the files as `subDirs.h` and `subDirs.cpp`.
+- "Add New" file to the subdirs project as "General > Text File", name it subdirs.pri, add it to the subdirs project.
+- move the content of the `subdirs.pro` file into `subdirs.pri` one and patch it as follows:
+      INCLUDEPATH += $$PWD
+      DEPENDPATH += $$PWD
+
+      HEADERS += \
+          $$PWD/subdirs.h
+
+          SOURCES += \
+              $$PWD/subdirs.cpp
+- in the `core.pro` file, remove the `SUBDIRS` definition and add `include(subdirs/subdirs.pri)`, instead. You can now delete the `subdirs.pro` file
+
 
 Now your project should look like this one:
 
