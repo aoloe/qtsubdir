@@ -3,11 +3,11 @@
 
 #include "mylib_global.h"
 
-class MYLIBSHARED_EXPORT Mylib
+class MYLIBSHARED_EXPORT MyLib
 {
     
 public:
-    Mylib();
+    MyLib();
 };
 
 #endif // MYLIB_H

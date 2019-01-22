@@ -1,9 +1,3 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2013-09-07T23:11:55
-#
-#-------------------------------------------------
-
 QT       -= gui
 
 TARGET = mylib
@@ -11,9 +5,9 @@ TEMPLATE = lib
 
 DEFINES += MYLIB_LIBRARY
 
-SOURCES += mylib.cpp
+SOURCES += myLib.cpp
 
-HEADERS += mylib.h\
+HEADERS += myLib.h\
         mylib_global.h
 
 unix:!symbian {

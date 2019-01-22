@@ -1,6 +1,6 @@
 TEMPLATE = subdirs
 
-#SUBDIRS += \
-#    subdirs
+SUBDIRS += \
+    # subdirs
 
-include(subdirs/subdirs.pri)
+#include(subdirs/subdirs.pri)

@@ -1,8 +1,9 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    thirdparty \
-    libraries \
-    plugins \
+#    thirdparty \
+#    libraries \
+#    plugins \
+#    core \
     application \
-    core
+    libraries

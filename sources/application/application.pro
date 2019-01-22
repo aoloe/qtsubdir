@@ -1,9 +1,3 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2013-09-09T21:38:11
-#
-#-------------------------------------------------
-
 QT       += core
 
 QT       -= gui
@@ -14,5 +8,6 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
+include(../core/subdir/subdir.pri)
 
 SOURCES += main.cpp

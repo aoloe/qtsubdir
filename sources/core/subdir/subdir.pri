@@ -2,7 +2,7 @@ INCLUDEPATH += $$PWD
 DEPENDPATH += $$PWD
 
 HEADERS += \
-    $$PWD/subdirs.h
+    $$PWD/subdir.h
 
 SOURCES += \
-    $$PWD/subdirs.cpp
+    $$PWD/subdir.cpp
